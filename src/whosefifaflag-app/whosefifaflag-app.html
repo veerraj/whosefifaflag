@@ -1,4 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/app-layout/app-layout.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
 
 <dom-module id="whosefifaflag-app">
   <template>
@@ -7,7 +9,17 @@
         display: block;
       }
     </style>
-    <h2>Hello [[prop1]]!</h2>
+    <app-header>
+      <app-toolbar>
+        <div main-title>Whose flag is this?</div>
+      </app-toolbar>
+    </app-header>
+    <div id="flag-image-container">
+      <iron-image 
+        id="flag-image"
+        preload fade src="data/svg/BR.svg">
+      </iron-image>
+    </div>
   </template>
 
   <script>
