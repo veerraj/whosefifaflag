@@ -7,10 +7,11 @@ How to Play
 Visit the following link to play: https://worldcup-flag.firebaseapp.com/
 
 
-Additional ideas to extend this application/idea:
-
-* Create a memory matching game, where all of the flags are hidden and you have to find 2 matching flags by flipping over only 2 at a time.
-* Timing a user to see how quickly they can successfully identify all flags.
-* Use the same codebase to create dynamic self-test by allowing users to supply their own JSON dataset
+### What's included:
+-firebase
+-html
+-css
+-json
+-javascript
 
 
